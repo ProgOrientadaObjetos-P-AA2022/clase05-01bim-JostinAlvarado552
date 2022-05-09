@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paquetedos;
+package paquete02;
 
 /**
  *
@@ -26,7 +26,7 @@ public class Ejecutor {
                 p.obtenerAutor().obtenerApellido(),
                 p.obtenerAnioPublicacion());
         
-        aut.establecerApellido("Elizalde");
+        aut.establecerApellido("Espinoza");
         
         System.out.printf("Publicación\nAutor: %s %s\n"
                 + "Año de Publicación: %d\n",
